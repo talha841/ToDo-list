@@ -11,7 +11,8 @@ btn1.onclick=()=>{
       } else {
             li.textContent = inp.value
             let btn2 = document.createElement('button')
-            li.style.marginLeft = '35%'
+            li.style.display = 'flex'
+            li.style.justifyContent = 'center'
             li.style.marginTop = '10px'
       btn2.textContent = 'delete'
        btn2.style.marginLeft = '30px'
