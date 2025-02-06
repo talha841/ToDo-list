@@ -25,6 +25,7 @@ button:hover{
 @media(max-width: 426px) {
     input[type=text]{
         width: 60%;
+        margin-left: 20px;
     }
     button{
         width: 30%;
@@ -33,6 +34,7 @@ button:hover{
 @media(max-width: 321px) {
     input[type=text]{
         width: 60%;
+        margin-left: 0;
     }
     button{
         width: 30%;
