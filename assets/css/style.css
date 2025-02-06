@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+input[type=text]{
+    height: 5vh;
+    width: 25%;
+    text-align: center;
+    border: 2px solid cadetblue;
+    font-size: 1rem;
+    margin-left: 35%;
+}
+button{
+    height: 5vh;
+    width: 10%;
+    background-color: cadetblue;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: black;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+    transition-duration: 0.5s;
+}
+@media(max-width: 426px) {
+    input[type=text]{
+        width: 60%;
+        margin-left: 20px;
+    }
+    button{
+        width: 30%;
+    }
+}
+@media(max-width: 321px) {
+    input[type=text]{
+        width: 60%;
+        margin-left: 0;
+    }
+    button{
+        width: 30%;
+    }
+}
